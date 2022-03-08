@@ -13,8 +13,24 @@ public class Controller {
         this.view = view;
     }
 
-    public static void main(String[] args) {
+    public void init(){
 
     }
 
+    public void exit(){
+        System.exit(0);
+    }
+
+    public static void main(String[] args) {
+
+        View v = new View();
+        Controller c = new Controller(v);
+
+
+        v.setController(c);
+        v.init();
+        c.init();
+    }
+
 }
+
