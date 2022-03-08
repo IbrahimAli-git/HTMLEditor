@@ -6,7 +6,21 @@ import java.awt.event.ActionListener;
 
 public class View extends JFrame implements ActionListener {
     private Controller controller;
+    private JTabbedPane tabbedPane;
+    private JTextPane htmlTextPane;
+    private JEditorPane plainTextPane;
 
+
+
+    public void exit(){
+        controller.exit();
+    }
+
+    public void init(){
+        tabbedPane = new JTabbedPane();
+        htmlTextPane = new JTextPane();
+        plainTextPane = new JEditorPane();
+    }
 
     public Controller getController() {
         return controller;
@@ -21,3 +35,4 @@ public class View extends JFrame implements ActionListener {
 
     }
 }
+
