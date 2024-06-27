@@ -13,7 +13,7 @@ A HTML Editor I have been building using codegym.cc For more information check o
 1. Clone the project
 2. Open the project in VS Code or Intellij idea
 3. Ensure Java is installed (any version is compatible)
-4. Run main
+4. Run Controller.java
 
 ## Collaborators  
 Ibrahim Ali - ibrahimali139@hotmail.com  
